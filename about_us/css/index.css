@@ -1,0 +1,41 @@
+*{margin: 0px; padding: 0px;}
+a {text-decoration: none; color: #a4a4a4;}
+ul,li {list-style: none;}
+body {font-family: "serif","Times New Roman"; font-size: 20px; color:#343434;}
+
+
+.top {background-color:#f8f8f8; height: 60px; width: 100%; text-align: center;}
+.top span {line-height: 60px;}
+.top-left {background:url(../images/top-left.gif) no-repeat 30px 17px; float: left; height:60px; width:80px;}
+.top-right {background:url(../images/top-right.gif) no-repeat 5px 17px; float: right; height:60px; width:80px;}
+
+
+.nav {height: 100px; width: 100%; background-color: #ffffff; clear: both;}
+.nav li { float:left; width: 25%; border-top: 2px solid #f1f1f1; border-bottom: 2px solid #f1f1f1; line-height: 50px; text-align:center;}
+.nav li a:hover {color:#f07e86; border-color:#f07e86;}
+
+.address {height:180px; width: 100%; clear:both; border-bottom:2px solid  #f1f1f1; position:relative;}
+.address li {height:30px; margin-left:25px;}
+.name1 {font-size: 25px; color:#393939; font-weight:bold;}
+.name2 {font-size: 18px; color:#353535; padding-top:20px; padding-left:30px; background:url(../images/address.gif) no-repeat 0 15px;}
+.name2 a {color:#353535;}
+.addr {font-size: 18px; color:#606060; padding-left:10px}
+
+.contact {height:400px; width:100%;}
+.contact li {float:left; height:100px; width:50%; font-size: 20px; border-bottom:2px solid #f1f1f1; box-sizing:border-box; padding-left:20px; padding-top:15px;}
+.cont1 {border-right:2px solid #f1f1f1;}
+.cont1 p {color:#b8b8b8;}
+.contact li span {color:#000000; font-size:15px;}
+.cont2 p {color:#b8b8b8;}
+.contact li span {color:#000000; font-size:15px;}
+
+.bottom {clear:both; height:320px; width:100%; background-color:#535b68; position:absolute; margin-top:50px; text-align:center;}
+.bottom p {color:#fefefe; margin-top:30px; font-size:23px;}
+.bottom span {color:#b5b5b7; margin-top:60px; font-size:14px;}
+.qq {height:60px; width:100%; background:url(../images/qq.gif) no-repeat center; margin-top:20px; margin-bottom:20px;}
+.qq a {display:block; height:60px; width:104px;}
+.nav-about{width:100%; height:40px;}
+.nav-about li {float:left; padding-left:20px; font-size:14px; box-sizing:border-box; width:25%; padding-left:10px; margin-bottom:10px;}
+.clear {clear:both;}
+.copyright {height:30px; }
+.copyright span {font-size:14px;}
